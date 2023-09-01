@@ -50,8 +50,7 @@ node_modules/
 # JS Sourcemaps
 *.js.map
 
-# Public folder
-public
+
 
 # vscode
 .vscode
