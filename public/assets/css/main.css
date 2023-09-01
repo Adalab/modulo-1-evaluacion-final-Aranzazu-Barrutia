@@ -6,10 +6,15 @@
 html {
   font-size: 62.50%; }
 
-.container_h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.875rem;
-  color: #ffffff;
-  background-color: red; }
+.hero {
+  background-image: i;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .hero .hero-h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.875rem;
+    color: #ffffff;
+    background-color: aquamarine; }
 
 /*# sourceMappingURL=main.css.map */
