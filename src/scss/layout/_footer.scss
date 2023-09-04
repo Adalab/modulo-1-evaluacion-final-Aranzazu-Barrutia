@@ -1,0 +1,37 @@
+.footer {
+  background-color: $greyish-brown;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $content;
+  font-size: 1.4rem;
+  list-style: none;
+  &-button {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    border-width: 0;
+    transform: translateY(-50%);
+  }
+  &-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    li {
+      list-style: none;
+    }
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+  &-copy {
+    font-family: $content;
+    font-size: 1.4rem;
+  }
+  &-heart {
+    color: $moss-green;
+  }
+}

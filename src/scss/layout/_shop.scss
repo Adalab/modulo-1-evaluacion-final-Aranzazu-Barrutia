@@ -1,0 +1,42 @@
+.main {
+  margin-left: 1.3rem;
+  margin-right: 1.7rem;
+  &-title {
+    font-family: $content;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: $moss-green;
+    margin-top: 45px;
+  }
+  &-subtitle {
+    font-family: $titles;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: $black;
+  }
+  &-content {
+    font-family: $content;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    text-align: center;
+    color: $greyish-brown;
+  }
+}
+
+.main-buy {
+  height: 4.5rem;
+  width: 16rem;
+  margin: 42px 0 145px 15px;
+  border: 2px solid $moss-green;
+  border-radius: 15px;
+  font-family: $content;
+  font-size: 20px;
+  font-weight: 500;
+  color: $moss-green;
+  padding: 10px 0 11.4px;
+  text-align: center;
+}

@@ -1,14 +1,10 @@
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/hero';
-@import 'layout/header';
-@import 'layout/principal';
-@import 'layout/footer';
+@import "core/variables";
+@import "core/reset";
+@import "components/code";
+@import "components/mixins";
 
-
-
-// font-family: 'Montserrat', sans-serif;
-// font-family: 'Roboto', sans-serif;
-
+@import "layout/hero";
+@import "layout/header";
+@import "layout/shop";
+@import "layout/getback";
+@import "layout/footer";

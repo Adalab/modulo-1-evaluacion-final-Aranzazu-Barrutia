@@ -1,0 +1,16 @@
+.button{
+    position: fixed;
+    background-color: #6c933e;
+    top: 0;
+    left: 0;
+    width: 36.4px;
+    height: 36.8px;
+    border-width: 0px;
+    &-bar-menu {
+        top:0;
+        left: 0;
+        width:13.5px;
+        height: 11.8px;
+        
+    }
+}
