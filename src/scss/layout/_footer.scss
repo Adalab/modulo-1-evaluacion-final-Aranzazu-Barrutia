@@ -7,6 +7,8 @@
   font-family: $content;
   font-size: 1.4rem;
   list-style: none;
+  height: 433px;
+
   &-button {
     width: 4.5rem;
     height: 4.5rem;
@@ -19,12 +21,15 @@
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
+    gap: 10px;
+
     li {
       list-style: none;
     }
     a {
       color: $white;
       text-decoration: none;
+      font-family: $cobtent;
     }
   }
   &-copy {

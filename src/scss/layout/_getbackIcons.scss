@@ -1,14 +1,16 @@
 .getback {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0px 140px;
+
   justify-items: center;
-  -ms-grid-row-span: 46px;
+  align-items: start;
 
   &-img1 {
     height: 114px;
     width: 114px;
     border-radius: 50%;
+    margin-top: 20px;
   }
   &-img2 {
     height: 114px;
@@ -25,8 +27,8 @@
 }
 .getback-start {
   height: 4.5rem;
-  width: 16rem;
-  margin: 42px 0 145px 15px;
+  width: 16.4rem;
+  margin-top: 2rem;
   background-color: $moss-green;
   color: $white;
   border: none;

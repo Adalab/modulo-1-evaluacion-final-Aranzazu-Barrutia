@@ -1,11 +1,13 @@
 .main {
   margin-left: 1.3rem;
   margin-right: 1.7rem;
+  height: 376px;
+
   &-title {
     font-family: $content;
     font-size: 1.4rem;
     line-height: 3rem;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     color: $moss-green;
     margin-top: 45px;
@@ -14,20 +16,24 @@
     font-family: $titles;
     font-size: 2.2rem;
     line-height: 3rem;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     color: $black;
   }
   &-content {
+    text-align: left;
     font-family: $content;
     font-size: 1.8rem;
     line-height: 3rem;
-    text-align: center;
+
     color: $greyish-brown;
   }
 }
 
 .main-buy {
+  margin-left: 1.3rem;
+  margin-right: 1.7rem;
+  margin-top: 4.2rem;
   height: 4.5rem;
   width: 16rem;
   margin: 42px 0 145px 15px;
